@@ -1,8 +1,8 @@
 # Laravel GeoIP
 
-[![Latest Version](https://img.shields.io/packagist/v/yourvendor/laravel-geoip.svg?style=flat-square)](https://packagist.org/packages/yourvendor/laravel-geoip)
-[![Total Downloads](https://img.shields.io/packagist/dt/yourvendor/laravel-geoip.svg?style=flat-square)](https://packagist.org/packages/yourvendor/laravel-geoip)
-[![License](https://img.shields.io/packagist/l/yourvendor/laravel-geoip.svg?style=flat-square)](LICENSE)
+[![Latest Version](https://img.shields.io/packagist/v/manka/geo-ip.svg?style=flat-square)](https://packagist.org/packages/manka/geo-ip)
+[![Total Downloads](https://img.shields.io/packagist/dt/manka/geo-ip.svg?style=flat-square)](https://packagist.org/packages/manka/geo-ip)
+[![License](https://img.shields.io/packagist/l/manka/geo-ip.svg?style=flat-square)](LICENSE)
 
 **Laravel GeoIP** is a simple package to retrieve geographical location data from an IP address using the [ip-api.com](http://ip-api.com/) API.
 
@@ -11,7 +11,7 @@
 Install via Composer:
 
 ```bash
-composer require yourvendor/laravel-geoip
+composer require manka/geo-ip
 
 
 If you're using Laravel <5.5, you must manually register the service provider in config/app.php:
@@ -19,7 +19,7 @@ If you're using Laravel <5.5, you must manually register the service provider in
 ```php
 'providers' => [
     // ...
-    YourVendor\GeoIP\GeoIPServiceProvider::class,
+    manka\GeoIP\GeoIPServiceProvider::class,
 ],
 
 ```
