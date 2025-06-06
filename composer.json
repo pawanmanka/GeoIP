@@ -1,0 +1,30 @@
+{
+    "name": "manka/geo-ip",
+    "description": "A simple GeoIP package for Laravel to get location details from an IP address.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Manka\\GeoIP\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Manka\\GeoIP\\GeoIPServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },  
+    "authors": [
+        {
+            "name": "Pawan Manka",
+            "email": "pawanmanka07@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
